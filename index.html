@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendiendo JavaScript: Selectores, Eventos y Funciones</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="imagenes/12.png">
+</head>
+<body>
+  <header>
+    <h1>¿Qué es JavaScript? </h1>
+    <h2>Usando Selectores, Eventos y Funciones</h2>
+  </header>
+
+  <main>
+    <section class="explicacion">
+      <h3>  JavaScript</h3>
+      <p>JavaScript es el lenguaje que permite agregar interactividad a las páginas web. Con él podemos responder a acciones del usuario</p>
+      <p> , cambiar el contenido, o crear animaciones. Los eventos de JavaScript son señales que indican que algo ha ocurrido en una página web</p>
+      <p>, como interacciones del usuario (clics, movimientos del ratón) o eventos del sistema (carga de la página)</p>
+    </section>
+
+    <img src="imagenes/1.png" alt="" srcset="">
+
+    <section class="explicacion">
+      <h3> 1. Selectores</h3>
+      <p>Los <strong>selectores</strong> permiten acceder a elementos del HTML usando su etiqueta, clase o id.</p>
+      <pre><code>const titulo = document.getElementById("titulo");
+const botones = document.querySelectorAll(".btn");</code></pre>
+    </section>
+
+    <img src="imagenes/2.png" height="350" width="450">
+
+    <section class="explicacion">
+      <h3> 2. Eventos</h3>
+      <p>Los <strong>eventos</strong> permiten ejecutar una acción cuando el usuario hace algo, como un clic o escribir texto.</p>
+      <pre><code>boton.addEventListener("click", saludar);</code></pre>
+    </section>
+
+    <img src="imagenes/3.png"  height="350" width="450">
+
+    <section class="explicacion">
+      <h3>3. Funciones</h3>
+      <p>Las <strong>funciones</strong> son bloques de código que realizan una tarea. Podemos llamarlas varias veces.</p>
+      <pre><code>function saludar() {
+  alert("¡Hola, programador!");
+}</code></pre>
+    </section>
+
+    <img src="imagenes/4.png"  height="350" width="650">
+
+    <section class="demo">
+      <h3> DEMOSTRACIÓN PRÁCTICA</h3>
+      <p>Haz clic en los botones y escribe para ver cómo funcionan los <b>selectores</b>, <b>eventos</b> y <b>funciones</b>.</p>
+
+      <div class="contenedor">
+        <button id="btnColor" class="btn">Cambiar color</button>
+        <button id="btnTexto" class="btn">Cambiar texto</button>
+        <input type="text" id="inputDemo" placeholder="Escribe algo aquí...">
+        <p id="mensaje">Este texto cambiará con los eventos </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado para aprender JavaScript </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

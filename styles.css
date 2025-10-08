@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f6fc;
+  color: #333;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  color: #0078ff;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  color: #555;
+  font-weight: normal;
+}
+
+main {
+  max-width: 800px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.explicacion {
+  margin-bottom: 2rem;
+}
+
+.explicacion h3 {
+  color: #0078ff;
+  margin-bottom: 0.5rem;
+}
+
+pre {
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.demo {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  background-color: #0078ff;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #005bcc;
+}
+
+input {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 60%;
+}
+
+#mensaje {
+  font-weight: bold;
+  color: #444;
+  margin-top: 1rem;
+  transition: color 0.3s;
+}
+
+footer {
+  margin-top: 1.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
